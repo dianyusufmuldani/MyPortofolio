@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.fullscreen{
+  height: 90vh;
+  background-color: #61dafb;
+
+}
+.position-sticky{
+  position: sticky;
+  top:0
+} 
+
+button{
+ padding: 10px;
+  height: 40px;
+  background-color: #00d1b2;
+  color:#ffffff;
+  font-weight:700;
+  border-width: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.imagecenter{
+  position: relative;
+  top:50%
+}
+
