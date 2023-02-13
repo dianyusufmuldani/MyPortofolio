@@ -11,6 +11,7 @@ const Skills = () => {
           </div>
         </div>
         <br />
+
         <Skill_progress value={87} text1={"HTML"} />
         <Skill_progress value={78} text1={"CSS"} />
         <Skill_progress value={86} text1={"React Js"} />

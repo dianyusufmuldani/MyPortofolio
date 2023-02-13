@@ -10,7 +10,11 @@ const CarouselApp = () => {
     <div class="columns" style={{ textAlign: "center" }}>
       <div class="column is-one-third">
         <div style={{ justifyContent: "center", display: "flex" }}>
-          <img src={ImagePortofolioWeb} style={{ height: 200 }} />
+          <img
+            src={ImagePortofolioWeb}
+            style={{ height: 200 }}
+            alt="Web Portofolio"
+          />
         </div>
         <h1 class="title is-5" style={{ margin: 10 }}>
           Portofolio Website
@@ -26,8 +30,16 @@ const CarouselApp = () => {
       </div>
       <div class="column ">
         <div style={{ justifyContent: "center", display: "flex" }}>
-          <img src={ImageTransevilz} style={{ height: 200 }} />
-          <img src={ImageTransevilz2} style={{ height: 200 }} />
+          <img
+            src={ImageTransevilz}
+            style={{ height: 200 }}
+            alt="Trans Evilz"
+          />
+          <img
+            src={ImageTransevilz2}
+            style={{ height: 200 }}
+            alt="Trans Evilz 2"
+          />
         </div>
         <h1 class="title is-5" style={{ margin: 10 }}>
           Trans Evilz Mobile
@@ -43,8 +55,12 @@ const CarouselApp = () => {
       </div>
       <div class="column ">
         <div style={{ justifyContent: "center", display: "flex" }}>
-          <img src={ImageSplitBill} style={{ height: 200 }} />
-          <img src={ImageSplitBill2} style={{ height: 200 }} />
+          <img src={ImageSplitBill} style={{ height: 200 }} alt="Splitbill" />
+          <img
+            src={ImageSplitBill2}
+            style={{ height: 200 }}
+            alt="Splitbill 2"
+          />
         </div>
         <h1 class="title is-5" style={{ margin: 10 }}>
           Splitbill Mobile

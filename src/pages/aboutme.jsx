@@ -24,6 +24,7 @@ const Aboutme = () => {
             <img
               width={500}
               src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220416200936/Top-10-Front-End-Developer-Skills-That-You-Need-in-2022.png"
+              alt="Frontend Developer"
             />
           </div>
           <div class="column is-half">

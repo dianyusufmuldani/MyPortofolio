@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarApp from "../component/navbar";
 import Aboutme from "./aboutme";
-import ContactMe from "./contactme";
+// import ContactMe from "./contactme";
 import Portofolio from "./portofolio";
 import Profile from "./profile";
 import Qualification from "./qualification";
