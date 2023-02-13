@@ -28,7 +28,9 @@ const Profile = () => {
             the form of React Js and React Native.
           </p>
           <br />
-          <button>Whatsapp</button>
+          <a href="https://wa.me/6285349394103">
+            <button>Whatsapp</button>
+          </a>
         </div>
       </div>
       <div

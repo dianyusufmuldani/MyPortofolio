@@ -30,7 +30,7 @@ const NavbarApp = () => {
               <Link
                 to="aboutme"
                 smooth={true}
-                offset={-50}
+                offset={-80}
                 duration={500}
                 class="navbar-item"
               >
@@ -39,7 +39,7 @@ const NavbarApp = () => {
               <Link
                 to="skills"
                 smooth={true}
-                offset={-50}
+                offset={-80}
                 duration={500}
                 class="navbar-item"
               >
@@ -48,7 +48,7 @@ const NavbarApp = () => {
               <Link
                 to="qualification"
                 smooth={true}
-                offset={-50}
+                offset={-80}
                 duration={500}
                 class="navbar-item"
               >
@@ -57,7 +57,7 @@ const NavbarApp = () => {
               <Link
                 to="portofolio"
                 smooth={true}
-                offset={-50}
+                offset={-80}
                 duration={500}
                 class="navbar-item"
               >
