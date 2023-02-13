@@ -24,6 +24,7 @@ const CarouselApp = () => {
           This is a website creation project using Reactjs as a frontend and
           Material UI for the CSS framework. Serves as a portfolio.
         </p>
+        <br />
         <Link to="introduction" smooth={true} offset={-50} duration={500}>
           <button>Check Application</button>
         </Link>
@@ -49,6 +50,7 @@ const CarouselApp = () => {
           Trans Evilz is a mobile application which is a mini project and
           features registration, account login, history and transfer services
         </p>
+        <br />
         <a href="https://drive.google.com/file/d/1pQs40quxDxPVWKejetlKoq0B1K6evIV7/view?usp=share_link">
           <button>Check Application</button>
         </a>
@@ -70,6 +72,7 @@ const CarouselApp = () => {
           Split Bill is a react native application for mobile android which has
           the function to add or delete a list of food orders.
         </p>
+        <br />
         <button>Check Application</button>
       </div>
     </div>
