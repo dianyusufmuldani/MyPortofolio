@@ -1,6 +1,7 @@
 import React from "react";
 import ImageReact from "../assets/reactjs.png";
 import ImageReactNative from "../assets/reactnative.png";
+import "aos/dist/aos.css";
 
 const Aboutme = () => {
   return (
@@ -11,6 +12,8 @@ const Aboutme = () => {
           height: "100vh",
           alignItems: "center",
         }}
+        data-aos="fade-right"
+        data-aos-duration={1000}
       >
         <div class="columns">
           <div class="column is-fullhd has-text-centered">

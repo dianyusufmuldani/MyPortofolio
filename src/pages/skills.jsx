@@ -1,10 +1,16 @@
 import React from "react";
 import Skill_progress from "../component/skill_progress";
+import "aos/dist/aos.css";
 /* eslint-disable */
 const Skills = () => {
   return (
     <>
-      <div id="skills" style={{ height: "100vh", marginBottom: 250 }}>
+      <div
+        id="skills"
+        style={{ height: "100vh", marginBottom: 250 }}
+        data-aos="fade-right"
+        data-aos-duration={1000}
+      >
         <div class="columns">
           <div class="column is-fullhd has-text-centered">
             <h1 class="title is-3">SKILLS</h1>

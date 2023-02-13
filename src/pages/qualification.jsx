@@ -1,4 +1,5 @@
 import React from "react";
+import "aos/dist/aos.css";
 const Data = [
   {
     title: "SMK N 2 Ciamis",
@@ -20,7 +21,12 @@ const Data = [
 const Qualification = () => {
   return (
     <>
-      <div id="qualification" style={{ height: "100vh" }}>
+      <div
+        id="qualification"
+        style={{ height: "100vh" }}
+        data-aos="fade-right"
+        data-aos-duration={1000}
+      >
         <div class="columns">
           <div class="column is-fullhd has-text-centered">
             <h1 class="title is-3">QUALIFICATION</h1>

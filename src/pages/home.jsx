@@ -1,4 +1,5 @@
-import React from "react";
+import Aos from "aos";
+import React, { useEffect } from "react";
 import NavbarApp from "../component/navbar";
 import Aboutme from "./aboutme";
 // import ContactMe from "./contactme";
@@ -8,6 +9,9 @@ import Qualification from "./qualification";
 import Skills from "./skills";
 
 const HomePages = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div class="container" style={{ padding: 5 }}>
       <NavbarApp />
@@ -21,8 +25,6 @@ const HomePages = () => {
       <br />
       <br />
       <Qualification />
-      <br />
-      <br />
       <Portofolio />
       <br />
       <br />

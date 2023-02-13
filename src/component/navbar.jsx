@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const NavbarApp = () => {
   return (
-    <div className="position-sticky">
+    <div className="position-sticky" style={{ zIndex: 1 }}>
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           {/* <a class="navbar-item"> */}
