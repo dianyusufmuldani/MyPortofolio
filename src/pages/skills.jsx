@@ -1,6 +1,6 @@
 import React from "react";
 import Skill_progress from "../component/skill_progress";
-
+/* eslint-disable */
 const Skills = () => {
   return (
     <>
