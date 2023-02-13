@@ -12,10 +12,20 @@ const HomePages = () => {
     <div class="container" style={{ padding: 5 }}>
       <NavbarApp />
       <Profile />
+      <br />
+      <br />
       <Aboutme />
+      <br />
+      <br />
       <Skills />
+      <br />
+      <br />
       <Qualification />
+      <br />
+      <br />
       <Portofolio />
+      <br />
+      <br />
       {/* <ContactMe /> */}
     </div>
   );
