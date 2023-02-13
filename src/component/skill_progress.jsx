@@ -12,7 +12,12 @@ const Skill_progress = ({ value, text1 }) => {
 
       <div class="column is-four-fifths has-text-left">
         <div>
-          <ProgressBar completed={value} customLabel=" " width="90%" />
+          <ProgressBar
+            completed={value}
+            customLabel=" "
+            width="90%"
+            bgColor="#00d1b2"
+          />
         </div>
       </div>
     </div>
